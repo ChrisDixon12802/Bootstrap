@@ -1,0 +1,135 @@
+body {
+  background-color: #666666;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: #ff0000 !important;
+}
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav-link.active {
+  color: #ff0000 !important;
+}
+.nav-link:hover {
+  color: #ff0000 !important;
+}
+
+.registration {
+  max-width: 100%;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive padding adjustments */
+@media (min-width: 768px) {
+  .registration {
+    padding: 40px;
+  }
+}
+
+.registration h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #333333;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #555555;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+}
+
+.form-control:focus {
+  border-color: #ff0000;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+  color: #e9ecef;
+  text-align: center;
+}
+.table-responsive {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.table th,
+.table td {
+  vertical-align: middle !important;
+}
+.table th {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 600;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+.table-hover tbody tr:hover {
+  background-color: #e9ecef;
+}
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5em 0.75em;
+  border-radius: 12px;
+}
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+/* Responsive container margins */
+.container {
+  max-width: 1200px;
+  margin: 60px auto 40px;
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 120px auto 40px;
+    padding: 20px;
+  }
+}
+
+/* Responsive image sizing */
+.rounded-circle {
+  max-width: 590px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .rounded-circle {
+    max-width: 200px;
+  }
+}
+
+/* Responsive button spacing */
+.gap-2 {
+  gap: 0.5rem !important;
+}
